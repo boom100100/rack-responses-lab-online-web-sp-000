@@ -4,7 +4,7 @@ class Application
 
 
 
-    if :now < 12
+    if :now.hour < 12
       resp.write "Morning"
     else
       resp.write "Afternoon"
