@@ -5,7 +5,7 @@ class Application
 
 
     if :now
-      puts :now
+      resp.write :now
       resp.write "Morning"
     else
       resp.write "Afternoon"
